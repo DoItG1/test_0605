@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rasa Chat</title>
+</head>
+<body>
+  <h3 style="text-align:center">💬 Rasa WebChat</h3>
+
+  <!--
+  <script>
+    !(function () {
+      let e = document.createElement("script");
+      (e.src = "https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.js"),
+        (e.async = !0),
+        (e.onload = () => {
+          window.WebChat.default({
+            initPayload: "/greet",
+            customData: { language: "ko" },
+            socketUrl: "http://localhost:5050",
+            title: "Rasa 챗봇",
+            subtitle: "무엇이든 물어보세요",
+            inputTextFieldHint: "메시지를 입력하세요...",
+            profileAvatar: null,
+            showCloseButton: true,
+            params: {
+              storage: "session"
+            }
+          }, null);
+        }),
+        document.body.appendChild(e);
+    })();
+  </script>
+  -->
+  <script src="webchat.js"></script>
+  <script>
+          window.WebChat.default({
+            initPayload: "/greet",
+            customData: { language: "ko" },
+            socketUrl: "http://localhost:5050",
+            title: "Rasa 챗봇",
+            subtitle: "무엇이든 물어보세요",
+            inputTextFieldHint: "메시지를 입력하세요...",
+            profileAvatar: null,
+            showCloseButton: true,
+            params: {
+              storage: "session"
+            }
+          }, null);        
+  </script>
+</body>
+</html>
