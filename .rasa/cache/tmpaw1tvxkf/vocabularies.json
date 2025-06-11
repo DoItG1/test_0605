@@ -1,0 +1,41 @@
+{
+  "text": {
+    "퇴원요약서": 13,
+    "출력은": 10,
+    "어디서": 6,
+    "해": 14,
+    "마약처방전": 1,
+    "어디에서": 7,
+    "출력해": 11,
+    "검사결과": 0,
+    "조회해": 8,
+    "환자": 15,
+    "수": 3,
+    "통계": 12,
+    "알려줘": 5,
+    "지난달": 9,
+    "신규": 4,
+    "보고서": 2
+  },
+  "intent": {
+    "ask_emr_query": 0
+  },
+  "response": null,
+  "action_name": {
+    "action_listen": 7,
+    "action_restart": 8,
+    "action_session_start": 10,
+    "action_default_fallback": 5,
+    "action_deactivate_loop": 2,
+    "action_revert_fallback_events": 9,
+    "action_default_ask_affirmation": 3,
+    "action_default_ask_rephrase": 4,
+    "action_two_stage_fallback": 11,
+    "action_unlikely_intent": 12,
+    "action_back": 0,
+    "action_extract_slots": 6,
+    "action_chatbot_query": 1
+  },
+  "action_text": null,
+  "intent_response_key": null
+}

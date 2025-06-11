@@ -1,0 +1,7 @@
+version: "3.0"
+
+rules:
+- rule: EMR 질문 처리
+  steps:
+  - intent: ask_emr_query
+  - action: action_chatbot_query

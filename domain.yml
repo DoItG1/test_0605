@@ -1,0 +1,15 @@
+version: '3.0'
+
+intents:
+  - ask_emr_query
+
+actions:
+  - action_chatbot_query
+
+responses:
+  utter_ask_emr_query:
+    - text: "EMR 관련 질문을 처리하겠습니다."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
