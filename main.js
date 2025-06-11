@@ -16,7 +16,7 @@ function createWindow() {
   win.loadFile('index.html');
 
   // ✅ 요기 넣어주세요!
-  win.webContents.openDevTools();
+  //win.webContents.openDevTools(); 개발자 도구
 }
 
 app.whenReady().then(() => {
